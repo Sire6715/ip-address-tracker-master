@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.address--container{
+  background-image: url(./images/pattern-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+input{
+  border-bottom-left-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+img{
+  border-bottom-right-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.vline{
+  border-left: 2px solid rgba(63, 64, 68, 0.305);
+}
+
+.Map{
+  height: auto;
+  max-width: 100%;
+
+}
